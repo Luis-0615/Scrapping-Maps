@@ -1,0 +1,29 @@
+name: Maps - Testes Python
+
+on:
+  push:
+    paths:
+      - 'maps/**'
+      - '.github/workflows/maps-tests.yml'
+  pull_request:
+    paths:
+      - 'maps/**'
+      - '.github/workflows/maps-tests.yml'
+
+jobs:
+  testes-maps:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Instalar dependencias
+        run: python -m pip install -r maps/requirements.txt
+      - name: Compilar scripts
+        run: python -m py_compile maps/scrape_br.py maps/cruzar_maps.py maps/checar_sites.py
+      - name: Testar funcoes locais
+        run: python -m unittest discover -s maps/tests -p 'test_*.py' -v

@@ -1,0 +1,4 @@
+# Necessarias apenas para cruzar_maps.py e checar_sites.py
+pandas>=2.0,<3.0
+httpx>=0.24,<1.0
+rapidfuzz>=3.0,<4.0

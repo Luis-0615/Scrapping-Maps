@@ -16,3 +16,7 @@ resultados_linkedin/
 *.xls
 *.csv
 !**/examples/*.csv
+
+# Checkpoints e temporarios do scraper Maps
+*.cidades_ok.txt
+*.csv.tmp

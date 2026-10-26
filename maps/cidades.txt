@@ -1,0 +1,52 @@
+# 40 municípios com mais CNPJs alvo de autopeças (cobrem 832 de 1283). São Paulo dividida em zonas.
+Centro, São Paulo, SP
+Mooca, São Paulo, SP
+Lapa, São Paulo, SP
+Santo Amaro, São Paulo, SP
+Santana, São Paulo, SP
+Vila Maria, São Paulo, SP
+Ipiranga, São Paulo, SP
+Itaquera, São Paulo, SP
+Pinheiros, São Paulo, SP
+Vila Prudente, São Paulo, SP
+Freguesia do Ó, São Paulo, SP
+Jabaquara, São Paulo, SP
+Rio De Janeiro, RJ
+Guarulhos, SP
+Maringa, PR
+Sao Bernardo Do Campo, SP
+Santo Andre, SP
+Curitiba, PR
+Campinas, SP
+Belo Horizonte, MG
+Caxias Do Sul, RS
+Sao Marcos, RS
+Contagem, MG
+Chapeco, SC
+Cascavel, PR
+Ribeirao Preto, SP
+Diadema, SP
+Presidente Prudente, SP
+Itajai, SC
+Joinville, SC
+Sorocaba, SP
+Jundiai, SP
+Porto Alegre, RS
+Sao Caetano Do Sul, SP
+Cariacica, ES
+Sao Jose Do Rio Preto, SP
+Londrina, PR
+Indaiatuba, SP
+Serra, ES
+Tupa, SP
+Vila Velha, ES
+Marilia, SP
+Barueri, SP
+Itaquaquecetuba, SP
+Duque De Caxias, RJ
+Uberlandia, MG
+Cotia, SP
+Viana, ES
+Valinhos, SP
+Americana, SP
+Pederneiras, SP

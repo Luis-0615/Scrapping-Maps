@@ -1,0 +1,18 @@
+# Motor de scraping (gosom/google-maps-scraper) rodando local em http://localhost:8080.
+# A API nao tem autenticacao: a porta fica presa em 127.0.0.1. Nao troque para 0.0.0.0.
+services:
+  google-maps-scraper:
+    image: gosom/google-maps-scraper:v1.18.1
+    # platform: linux/amd64   # descomente em Mac com Apple Silicon se nao subir
+    container_name: gmaps-scraper
+    restart: unless-stopped
+    command: ["-web", "-data-folder", "/gmapsdata"]
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - gmaps_data:/gmapsdata
+      - gmaps_cache:/opt
+
+volumes:
+  gmaps_data:
+  gmaps_cache:
